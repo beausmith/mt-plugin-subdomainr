@@ -1,0 +1,13 @@
+id: Subdomainr
+key: Subdomainr
+name: Subdomainr
+description: Prefixes FQDN with subdomain
+doc_link: '#'
+author_name: Beau Smith
+author_link: http://beausmith.com/
+version: '1.0'
+
+tags:
+    modifier:
+        subdomainr:
+            handler: $Subdomainr::Subdomainr::Plugin::mod_subdomainr
